@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *{
+  border:1px solid;
+} */
+
+html{
+  background-color:#dedede;
+}
+
+body{
+ background-color:#dedede;
+}
+
+.download-button-apple {
+  width: 90%;
+  max-width: 186px;
+}
+
+.beta_Link{
+  /* background-color:#088c67; */
+  border:1px solid;
+  margin-left:40px;
+  font-size: 0.8rem;
+  padding:3px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.download-button{
+  margin-right:10px;
+}
+

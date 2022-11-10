@@ -1,0 +1,17 @@
+.download-button-apple {
+  width: 19vw;
+  min-width: 165px;
+  max-width: 186px;
+}
+
+
+.landing_outer{
+  margin-top:70px;
+}
+
+.coming_soon{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}

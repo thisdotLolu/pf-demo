@@ -1,0 +1,3 @@
+dispatch:
+  - url: "playfairapp.com/*"
+    service: default

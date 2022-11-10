@@ -1,0 +1,54 @@
+.stocks{
+    display:flex;
+    /* margin-left:30vw; */ 
+    /* width:50vw; */
+    justify-content:center;
+
+}
+.stock img{
+    height:10vh;
+    width:5vw;
+    border-radius:20px;
+    margin-bottom:10px;
+}
+.stock{
+    margin:20px
+}
+.arrow_up,.arrow_down{
+    object-fit:contain;
+    cursor:pointer;
+}
+.playfair_logoo{
+    /* border:1px solid; */
+    height:100px;
+    width:100px;
+    object-fit: contain;
+}
+.submit
+{
+    background-color: #009463;
+    color:white;
+    padding:10px;
+    border-radius:10px;
+    margin-top:10vh;
+    /* top:10vh; */
+    /* position: absolute; */
+}
+.arrow_container{
+    position:relative;
+}
+.arrow_down{
+    position: absolute;
+}
+.arrow_up{
+    position:absolute;
+}
+.arrow_inactive{
+    /* position: absolute; */
+    display:none;
+}
+.arrow_active{
+    /* position: absolute; */
+    display:block;
+}
+

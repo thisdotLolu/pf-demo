@@ -1,0 +1,12 @@
+.gcloudignore
+.git
+.gitignore
+.env
+.prettierrc
+README.md
+tsconfig.json
+yarn.lock
+/.idea
+/node_modules
+/public
+/src

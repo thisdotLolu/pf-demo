@@ -1,0 +1,156 @@
+.top_section{
+    display:flex;
+    margin-top: -200px;
+    margin-left: -203px;
+    /* font-family: Open Sans; */
+}
+.mobileLanding{
+    display: none;
+}
+.header_text{
+    text-align:start;
+    /* border:1px solid; */
+    margin-left:7vw;
+    margin-top:17vh;
+    position:absolute;
+    width:46vw;
+    font-size: 0.6rem;
+}
+
+.faded_subtitle{
+    opacity:0.7;
+    font-size: 1rem;
+}
+.verify-info{
+    color:#088c67
+}
+
+input, .Verify_acc_name{
+    border:none;
+    width:29vw;
+    height:9vh;
+    border-radius:10px;
+    font-size:1.3rem;
+    border:2px solid;
+    border-color:#088c67;
+    padding-left:20px;
+}
+
+input:focus{
+    outline-width: none!important;
+    border:1px solid #088c67; 
+}
+::placeholder{
+    font-size:0.8rem;
+    /* color:black!important; */
+    /* padding-bottom: 30px; */
+    /* border:1px solid; */
+    padding-left:10px;
+    padding-top:-15px;
+}
+.top_section_form{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.top_section_form button{
+    background-color:#088c67;
+    color:white;
+    height:8vh;
+    border:none;
+    width:10vw;
+    font-size:0.8rem;
+    border-radius:10px;
+    /* margin-bottom:10px; */
+    margin-left: 10px;
+    cursor:pointer;
+}
+
+/* 
+.fieldSet{
+    margin: 10;
+    padding-horizontal: 10;
+    padd
+    padding-bottom: 10;
+    border-radius: 5;
+    border-width: 1;
+    align-items: center;
+    border-color: #000;
+} */
+
+legend{
+    font-size:1rem;
+    display:flex;
+    flex-direction:row;
+}
+.artificial_intelligence{
+    font-weight:900;
+    opacity:1;
+    color:black;
+}
+
+@media screen and (max-width:1200px){
+    .header_text{
+        /* border:1px solid; */
+        margin-left:10vw;
+        width:40vw;
+    }
+}
+@media screen and (max-width:1200px){
+    .header_text{
+        /* border:1px solid; */
+        margin-left:15vw;
+        width:35vw;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:1000px){
+    .header_text{
+        /* border:1px solid; */
+        margin-left:20vw;
+        width:33vw;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:950px){
+    .header_text{
+        /* border:1px solid; */
+        margin-left:25vw;
+        width:32vw;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:800px){
+    .header_text{
+        width:100vw;
+        /* position: relative; */
+        /* border:1px solid; */
+        margin-left:25vw;
+        /* width:32vw; */
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:600px){
+    .top_section{
+        display:none;
+    }
+    .mobileLanding{
+        display:inline-block;
+        margin-top: -50px;
+    }
+    .header_text{
+        width:100vw;
+        /* position: relative; */
+        border:1px solid;
+        margin-left:70vw;
+        /* width:32vw; */
+        /* margin-bottom: 20px; */
+    }
+    .top_section_form button{
+        width:30vw;
+    }
+    input, .Verify_acc_name{
+        width:50vw;
+    }
+}
+    
