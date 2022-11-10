@@ -56,8 +56,8 @@ const Hero = ({
         <Landing/>
         </div>
 
-        <iframe src='https://ornate-mochi-dde633.netlify.app'
-        style={{height:'90vh',width:'50vw',margin:'0 auto'}}
+        <iframe src='https://sweet-brioche-a186d9.netlify.app'
+        className='iframe-widget'
         title='widget'
         >
 
